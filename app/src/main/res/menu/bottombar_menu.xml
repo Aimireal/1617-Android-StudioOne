@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Bottom bar menu by roughike-->
+<!--https://github.com/roughike/BottomBar-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Every item for another tab-->
+    <item
+        android:id="@+id/bottomBarItemOne"
+        android:background="@color/colorSecondary"
+        android:textColor="@color/colorWhite"
+        android:icon="@drawable/ic_group_collapse_00"
+        android:title="What is it?" />
+    <item
+        android:id="@+id/bottomBarItemSecond"
+        android:background="@color/colorSecondary"
+        android:textColor="@color/colorWhite"
+        android:icon="@drawable/ic_group_collapse_00"
+        android:title="What to Expect?" />
+    <item
+        android:id="@+id/bottomBarItemThird"
+        android:background="@color/colorSecondary"
+        android:textColor="@color/colorWhite"
+        android:icon="@drawable/ic_group_collapse_00"
+        android:title="Want more?" />
+</menu>

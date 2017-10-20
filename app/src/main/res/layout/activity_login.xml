@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/readingleedsbackground"
+    tools:context="u1652664dylanhudson.studio1.LoginActivity">
+
+    <Button
+        android:id="@+id/btn_sign_in_button"
+        style="@style/FirebaseUI.Button.AccountChooser.GoogleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_sign_in_google"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <Button
+        android:id="@+id/btn_sign_out_button"
+        style="@style/FirebaseUI.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:background="@color/colorSecondary"
+        android:text="@string/btn_sign_out"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:text="@string/btn_sign_out" />
+
+    <Button
+        android:id="@+id/btn_sign_in_button_facebook"
+        style="@style/FirebaseUI.Button.AccountChooser.FacebookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_sign_in_button"
+        android:layout_below="@+id/btn_sign_in_button"
+        android:layout_marginTop="185dp"
+        android:background="@color/facebookBlue"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="@string/btn_sign_in_facebook"
+        android:textColor="@color/colorWhite" />
+</RelativeLayout>

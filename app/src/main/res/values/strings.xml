@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_maps_api">GOOGLE_MAPS_API_KEY=AIzaSyAKfCRMnQWoYnbaK-5IywAX9Kj4FbwKAj0</string>
+    <string name="google_maps_api_Key">AIzaSyAKfCRMnQWoYnbaK-5IywAX9Kj4FbwKAj0</string>
+    <string name="facebook_app_id">translatable="false">1717104628580031</string>
+
+    <string name="app_name">Reading - Leeds: 2017</string>
+    <string name="event_title">Reading - Leeds 2017</string>
+    <string name="main_name">Homepage</string>
+    <string name="directions_name">Directions</string>
+    <string name="information_name">Information</string>
+    <string name="payment_name">Tickets and Donations</string>
+    <string name="map_name">Maps</string>
+    <string name="camping_name">Camping</string>
+    <string name="performances_name">Performances</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="information_general">This is the unofficial app for Reading - Leeds</string>
+    <string name="information_application">Use the buttons for organizing your festival</string>
+    <string name="information_information">This button is to view the event information</string>
+    <string name="information_maps">This button is to view the information on location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="information_tickets">This button is to view the information on tickets and booking</string>
+
+    <string name="button_buy_now">Buy Now</string>
+    <string name="ticket_notice">(Notice: All ticket purchases will redirect you to the official TicketMaster website for purchase)</string>
+    <string name="ticket_weekendcamping">Weekend Camping Tickets</string>
+    <string name="ticket_weekendcampinginstallment">Weekend Camping Installment</string>
+    <string name="ticket_friday">Friday Tickets</string>
+    <string name="ticket_saturday">Saturday Tickets</string>
+    <string name="ticket_sunday">Sunday Tickets</string>
+    <string name="camping_equipment">Camping Equipment</string>
+    <string name="camping_information">(The camping equipment is not for any actual purchases, just a link to our recommendations page so you can decide which you want)</string>
+
+    <string name="information_page">Information - Here you can find all the links to the different information you will need for the festival</string>
+    <string name="information_essentials">The Essentials</string>
+    <string name="information_thearena">The Arena</string>
+    <string name="information_personalsaftey">Personal Safety</string>
+    <string name="information_volunteer">Volunteer</string>
+    <string name="information_wheretostay">Where to Stay</string>
+    <string name="information_accesscustomers">Access Customers</string>
+    <string name="information_contactus">Contact Us</string>
+
+    <string name="camping_title">Here is our camping equipment recommendations, for both buying and hire</string>
+    <string name="camping_buy">Camping - Buying</string>
+    <string name="camping_hire">Camping - hire</string>
+    <string name="camping_borrow">Before you try any of these options, try and find if someone you know can let you borrow or share tents!</string>
+    <string name="camping_gooutdoors">GO Outdoors</string>
+    <string name="camping_mountainwarehouse">Mountain Warehouse</string>
+    <string name="camping_halfords">Halfords</string>
+    <string name="camping_tent2hire">Tent 2 Hire</string>
+    <string name="camping_pichup">Pichup</string>
+    <string name="camping_campinggearhire">CampingGearHire</string>
+
+    <string name="btn_sign_in_google">Sign in with Google</string>
+    <string name="btn_sign_in_facebook">Sign in with Facebook</string>
+    <string name="btn_sign_out">Sign Out</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_item_compact_header">Title</string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_information">Information</string>
+    <string name="drawer_item_map">Map</string>
+    <string name="drawer_item_payment">Payment</string>
+    <string name="drawer_item_performances">Performances</string>
+    <string name="drawer_item_login">Account</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_contact">Contact</string>
+    <string name="drawer_item_help">Help</string>
+
+    <string name="what_is_reading_1">If you already know about the festival, or just want to know what Reading Leeds is, or just want to order your tickets
+        you can select the toolbar and view whichever pages you want to. Otherwise you can find a history of the festival here:</string>
+    <string name="what_is_reading_2">The Reading and Leeds Festivals are a pair of annual rock music festivals that take place in Reading and Leeds in England.
+        The events take place simultaneously on the Friday\, Saturday and Sunday of the August bank holiday weekend\, sharing the same bill. The Reading Festival
+        is held at Little John\'s Farm on Richfield Avenue in central Reading, near the Caversham Bridge. The Leeds event is held in Bramham Park\, near Wetherby\,
+        the grounds of an historic house. Campsites are available at both sites and weekend tickets include camping. Day tickets are also sold.</string>
+    <string name="what_is_reading_3">The Reading Festival\, the original and senior of the two\, is the world\'s oldest popular music festival still in existence and has
+        hosted many of the UK\'s most famous acts over the years\, including The Rolling Stones\, Fleetwood Mac\, The Kinks\, Pink Floyd\, Deep Purple\, The Who\, Cream\, Black Sabbath\,
+        Judas Priest\, Genesis\, Iron Maiden\, The Jam\, The Police\, Status Quo\, The Pogues\, Blur\, Pulp\, Muse\, Radiohead\, Biffy Clyro and Oasis plus top overseas names such as
+        Alice Cooper\, Iggy Pop\, AC/DC\, Metallica\, Guns n\' Roses\, Eminem\, Nirvana\, Foo Fighters\, Green Day and Red Hot Chili Peppers. It has had various musical phases over the years\,
+        as detailed below. In the twin-site era\, rock\, alternative\, indie\, punk and metal have tended to dominate.</string>
+
+    <string name="what_to_expect_1">If you take the spiritual vibes out of Glastonbury and replaced them with a mosh pit\, you\’re on the right track to this kind of festival. Reading Leeds festival is known
+        for it\’s rock themed acts with the refreshing twist of the dance tents blasting out music until 7am. Let me tell you\, there is nothing more satisfying yet daunting of making it until the 7am
+        sunrise. Satisfying that you did it but the daunting factor is how terrible you feel as soon as realisation hits</string>
+    <string name="what_to_expect_2">Unfortunately\, festival fate means that at some point during the weekend\, two bands you love are going to be on at the same time. It happens to all of us.
+        If they\'re back to back on separate stages\, you might be able to duck out from one early to make it on time for the other. But on more than one occasion you\'re probably going to have to
+        make some tough choices. Weight up the pros and cons and decide from there\, remember there is a huge selection of bands to see so expect to be stuck for choice.</string>
+    <string name="what_to_expect_3">Reading Leeds is a highlight on the festival calendar for people across Yorkshire and beyond\, particularly for A-Level or University who want to meet up and
+        celebrate with their mates. If there is one thing to know about the festival\, it is soak up the atmosphere\, dive into the moshpit for your favourite bands and have a ball.</string>
+
+</resources>

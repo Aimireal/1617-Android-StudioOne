@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="u1652664dylanhudson.studio1.MainActivity">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/fragmentScrollTitles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="What to expect at Reading Leeds Festival?"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/bodyTextColor"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGrey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/whatExpectOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_to_expect_1" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="261dp"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/thelads" />
+
+            <TextView
+                android:id="@+id/whatExpectTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_to_expect_2" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.74"
+                android:adjustViewBounds="false"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/crowd" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_to_expect_3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

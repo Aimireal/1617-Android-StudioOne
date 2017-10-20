@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="u1652664dylanhudson.studio1.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/fragmentScrollTitles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="What is Reading Leeds?"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/bodyTextColor"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGrey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/whatFestivalOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="@string/what_is_reading_1"
+                android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="274dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/leedsstage" />
+
+            <TextView
+                android:id="@+id/whatFestivalTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_is_reading_2"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/site" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_is_reading_3" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
